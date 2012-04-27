@@ -1,0 +1,8 @@
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\obj\Debug\Callisto_Loader.CTLoad.resources
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\obj\Debug\Callisto_Loader.Properties.Resources.resources
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\obj\Debug\Callisto Loader.csproj.GenerateResource.Cache
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\bin\Debug\Callisto Loader.exe
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\bin\Debug\Callisto Loader.pdb
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\obj\Debug\Callisto Loader.exe
+C:\Users\David\Desktop\Development\MapleStory\Callisto Loader\Callisto Loader\obj\Debug\Callisto Loader.pdb

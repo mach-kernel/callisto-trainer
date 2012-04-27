@@ -1,0 +1,7 @@
+This is another trainer that was released a short time after "David's Trainer". It's also written in VC++/.NET with ASM snippets here and there, but this one contains its own authentication module & DLL loader for injecting the trainer into the process. At the time it worked on all available Windows platforms that were capable of running the game itself. 
+
+This project also proudly uses the following other software projects (<3):
+Tab Control EX: http://dotnetrix.co.uk/controls.htm
+DLLInjector (integrated in loader package): http://dllinjector.sourceforge.net/
+
+Happy hacking!

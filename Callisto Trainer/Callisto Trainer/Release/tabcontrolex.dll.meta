@@ -1,0 +1,126 @@
+  Dotnetrix.ResourceDummy.resources - Embedded, ContainedInManifestFile, 
+  Dotnetrix.Controls.GroupBoxEX.resources - Embedded, ContainedInManifestFile, 
+  Dotnetrix.TabControlEX.bmp - Embedded, ContainedInManifestFile, 
+Assembly TabControlEX, Version=2.0.0.1, Culture=neutral, PublicKeyToken=1db242dc828e4b4e: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Class Dotnetrix.Controls.GroupBoxEX: AutoLayout, AnsiClass, Class, Public
+  :System.Windows.Forms.GroupBox
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Boolean UseVisualStylesForeColor 'get set' : 
+  Methods:
+    get_UseVisualStylesForeColor(): PrivateScope, Public, SpecialName
+    set_UseVisualStylesForeColor(Boolean): PrivateScope, Public, SpecialName
+Struct Dotnetrix.Controls.TabAppearanceEX: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Dotnetrix.Controls.TabAppearanceEX Normal = 0 : Public, Static, Literal, HasDefault
+    Dotnetrix.Controls.TabAppearanceEX Button = 1 : Public, Static, Literal, HasDefault
+    Dotnetrix.Controls.TabAppearanceEX FlatButton = 2 : Public, Static, Literal, HasDefault
+    Dotnetrix.Controls.TabAppearanceEX FlatTab = 3 : Public, Static, Literal, HasDefault
+    Dotnetrix.Controls.TabAppearanceEX Bevel = 4 : Public, Static, Literal, HasDefault
+Class Dotnetrix.Controls.TabControlEX: AutoLayout, AnsiClass, Class, Public
+  :System.Windows.Forms.TabControl
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.TabPage HoverTab 'get ' : 
+    System.Drawing.Color HotColor 'get set' : 
+    System.Drawing.Color ForeColor 'get set' : 
+    System.Windows.Forms.TabDrawMode DrawMode 'get ' : 
+    System.Drawing.FontStyle SelectedTabFontStyle 'get set' : 
+    TabPageCollection TabPages 'get ' : 
+    System.Drawing.Color TabColor 'get set' : 
+    System.Drawing.Color SelectedTabColor 'get set' : 
+    Boolean UseVisualStyles 'get set' : 
+    Boolean AutoLoadTabPages 'get set' : 
+    Boolean RotateThemedTabPageTexture 'get set' : 
+    System.Drawing.Color FlatBorderColor 'get set' : 
+    Boolean AllowTabDrag 'get set' : 
+    Boolean ExtendContextMenuToTabs 'get set' : 
+    System.Drawing.Color BackColor 'get set' : 
+    Dotnetrix.Controls.TabAppearanceEX Appearance 'get set' : 
+  Events:
+    Dotnetrix.Controls.TabPageChangeEventHandler SelectedIndexChanging: 
+  Methods:
+    get_HoverTab(): PrivateScope, Public, SpecialName
+    get_HotColor(): PrivateScope, Public, SpecialName
+    set_HotColor(Color): PrivateScope, Public, SpecialName
+    get_ForeColor(): PrivateScope, Public, SpecialName
+    set_ForeColor(Color): PrivateScope, Public, SpecialName
+    get_DrawMode(): PrivateScope, Public, SpecialName
+    get_SelectedTabFontStyle(): PrivateScope, Public, SpecialName
+    set_SelectedTabFontStyle(FontStyle): PrivateScope, Public, SpecialName
+    get_TabPages(): PrivateScope, Public, SpecialName
+    get_TabColor(): PrivateScope, Public, SpecialName
+    set_TabColor(Color): PrivateScope, Public, SpecialName
+    get_SelectedTabColor(): PrivateScope, Public, SpecialName
+    set_SelectedTabColor(Color): PrivateScope, Public, SpecialName
+    get_UseVisualStyles(): PrivateScope, Public, SpecialName
+    set_UseVisualStyles(Boolean): PrivateScope, Public, SpecialName
+    get_AutoLoadTabPages(): PrivateScope, Public, SpecialName
+    set_AutoLoadTabPages(Boolean): PrivateScope, Public, SpecialName
+    get_RotateThemedTabPageTexture(): PrivateScope, Public, SpecialName
+    set_RotateThemedTabPageTexture(Boolean): PrivateScope, Public, SpecialName
+    get_FlatBorderColor(): PrivateScope, Public, SpecialName
+    set_FlatBorderColor(Color): PrivateScope, Public, SpecialName
+    get_AllowTabDrag(): PrivateScope, Public, SpecialName
+    set_AllowTabDrag(Boolean): PrivateScope, Public, SpecialName
+    get_ExtendContextMenuToTabs(): PrivateScope, Public, SpecialName
+    set_ExtendContextMenuToTabs(Boolean): PrivateScope, Public, SpecialName
+    get_BackColor(): PrivateScope, Public, Virtual, CheckAccessOnOverride, SpecialName
+    set_BackColor(Color): PrivateScope, Public, Virtual, CheckAccessOnOverride, SpecialName
+    ResetBackColor(): PrivateScope, Public, Virtual, CheckAccessOnOverride
+    get_Appearance(): PrivateScope, Public, SpecialName
+    set_Appearance(TabAppearanceEX): PrivateScope, Public, SpecialName
+    add_SelectedIndexChanging(TabPageChangeEventHandler): PrivateScope, Public, SpecialName
+    remove_SelectedIndexChanging(TabPageChangeEventHandler): PrivateScope, Public, SpecialName
+    InsertTabPage(TabPage, Int32): PrivateScope, Public
+Class Dotnetrix.Controls.TabPageEX: AutoLayout, AnsiClass, Class, Public
+  :System.Windows.Forms.TabPage
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    Boolean Enabled 'get set' : 
+  Events:
+    System.EventHandler Load: 
+  Methods:
+    get_Enabled(): PrivateScope, Public, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, SpecialName
+    Hide(): PrivateScope, Public
+    Show(): PrivateScope, Public
+    Show(Boolean): PrivateScope, Public
+    add_Load(EventHandler): PrivateScope, Public, SpecialName
+    remove_Load(EventHandler): PrivateScope, Public, SpecialName
+Class Dotnetrix.Controls.TabPageChangeEventArgs: AutoLayout, AnsiClass, Class, Public
+  :System.EventArgs
+    Void .ctor(System.Windows.Forms.TabPage, System.Windows.Forms.TabPage): PrivateScope, Public, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.TabPage CurrentTab 'get ' : 
+    System.Windows.Forms.TabPage NextTab 'get ' : 
+    Boolean Cancel 'get set' : 
+  Methods:
+    get_CurrentTab(): PrivateScope, Public, SpecialName
+    get_NextTab(): PrivateScope, Public, SpecialName
+    get_Cancel(): PrivateScope, Public, SpecialName
+    set_Cancel(Boolean): PrivateScope, Public, SpecialName
+    ToString(): PrivateScope, Public, Virtual, CheckAccessOnOverride
+Class Dotnetrix.Controls.TabPageChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    BeginInvoke(Object, TabPageChangeEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, VtableLayoutMask, CheckAccessOnOverride
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, VtableLayoutMask, CheckAccessOnOverride
+    Invoke(Object, TabPageChangeEventArgs): PrivateScope, Public, Virtual, VtableLayoutMask, CheckAccessOnOverride
